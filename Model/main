@@ -1,0 +1,8 @@
+# main model 
+# MobileNetV4主代码网络参考 https://github.com/huggingface/pytorch-image-models
+# 一些函数和代码改编并引用自官方存储库
+# 
+from typing import Any, Callable, Dict, List, Mapping, Optional, Tuple, Union
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
